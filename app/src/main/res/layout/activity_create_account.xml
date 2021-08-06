@@ -7,7 +7,7 @@
     tools:context=".create_account">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/submit_button"
         android:layout_width="225dp"
         android:layout_height="56dp"
         android:layout_marginEnd="92dp"
@@ -177,7 +177,7 @@
         android:background="@drawable/edittext3"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintBottom_toTopOf="@+id/submit_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />

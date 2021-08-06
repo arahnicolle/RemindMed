@@ -7,7 +7,7 @@
     tools:context=".recover">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/logo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
@@ -15,7 +15,7 @@
         tools:layout_editor_absoluteY="-159dp" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/redBackground"
         android:layout_width="522dp"
         android:layout_height="281dp"
         android:layout_marginBottom="564dp"
@@ -26,7 +26,7 @@
         app:srcCompat="@drawable/background" />
 
     <TextView
-        android:id="@+id/resetPass"
+        android:id="@+id/resetPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="148dp"
@@ -34,8 +34,8 @@
         android:text="Reset Password"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="@+id/imageView7" />
+        app:layout_constraintBottom_toBottomOf="@+id/redBackground"
+        app:layout_constraintEnd_toEndOf="@+id/redBackground" />
 
     <TextView
         android:id="@+id/newPass"
@@ -50,7 +50,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/newPassword"
+        android:id="@+id/newPassword_txtbox"
         android:layout_width="364dp"
         android:layout_height="52dp"
         android:layout_marginBottom="13dp"
@@ -71,11 +71,11 @@
         android:text="Confirm Password"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/confirmPasswordBox"
+        app:layout_constraintBottom_toTopOf="@+id/confirmPass_txtbox"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/confirmPasswordBox"
+        android:id="@+id/confirmPass_txtbox"
         android:layout_width="364dp"
         android:layout_height="52dp"
         android:layout_marginBottom="36dp"

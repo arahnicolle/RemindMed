@@ -5,9 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class landing_page extends AppCompatActivity {
+
+    private ImageView button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +21,13 @@ public class landing_page extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-
+                openmain_page();
             }
         });
+    }
+
+    private void openmain_page() {
+        Intent intent = new Intent(this, main_page.class);
+        startActivity(intent);
     }
 }

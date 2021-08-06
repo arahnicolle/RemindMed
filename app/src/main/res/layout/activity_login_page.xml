@@ -10,17 +10,17 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo1"
         android:layout_width="590dp"
         android:layout_height="489dp"
-        app:layout_constraintBottom_toTopOf="@+id/password1"
+        app:layout_constraintBottom_toTopOf="@+id/passwordTxtbox1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/email1"
+        android:id="@+id/email_txtbox1"
         android:layout_width="287dp"
         android:layout_height="52dp"
         android:layout_marginBottom="21dp"
@@ -30,12 +30,12 @@
         android:hint="   Email"
         android:inputType="textEmailAddress"
         android:textColorHint="#676661"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/passwordtxt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/password1"
+        android:id="@+id/passwordTxtbox1"
         android:layout_width="287dp"
         android:layout_height="52dp"
         android:layout_marginBottom="32dp"
@@ -49,7 +49,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/emailTxtbox1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
@@ -59,11 +59,11 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/email1"
+        app:layout_constraintBottom_toBottomOf="@+id/email_txtbox1"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/passwordtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="72dp"
@@ -73,7 +73,7 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo1"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -85,12 +85,12 @@
         android:fontFamily="@font/viga"
         android:text="Login"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/forgotPass1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/forgotPass1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
@@ -105,7 +105,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/back1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -113,7 +113,7 @@
         android:text="Back"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="@+id/logo1"
         app:layout_constraintStart_toStartOf="parent" />
 
 
