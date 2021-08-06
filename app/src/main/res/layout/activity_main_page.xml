@@ -18,10 +18,13 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="183dp"
+        android:layout_width="286dp"
         android:layout_height="61dp"
         android:layout_marginBottom="64dp"
+        android:background="@drawable/edit_roundmain"
+        android:fontFamily="@font/viga"
         android:text="Create Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,22 +32,30 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="183dp"
-        android:layout_height="61dp"
+        android:layout_width="285dp"
+        android:layout_height="69dp"
         android:layout_marginBottom="217dp"
+        android:background="@drawable/edit_roundmain"
+        android:fontFamily="@font/viga"
         android:text="Already a member? Login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="183dp"
-        android:layout_height="61dp"
+        android:layout_width="287dp"
+        android:layout_height="65dp"
         android:layout_marginBottom="132dp"
+        android:background="@drawable/edit_roundmain"
+        android:fontFamily="@font/viga"
         android:text="Login as a guest"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
