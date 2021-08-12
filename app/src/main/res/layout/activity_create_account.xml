@@ -137,11 +137,11 @@
         android:text="Password"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/passwsordBox"
+        app:layout_constraintBottom_toTopOf="@+id/passwordBox"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/passwsordBox"
+        android:id="@+id/passwordBox"
         android:layout_width="371dp"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"

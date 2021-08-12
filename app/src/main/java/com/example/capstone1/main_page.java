@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class main_page extends AppCompatActivity {
 
-    private Button create_account;
+    private Button createAccount;
     private Button login;
     private Button guest;
 
@@ -17,10 +17,10 @@ public class main_page extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
-        create_account = (Button) findViewById(R.id.createAccount_btn);
+        createAccount = (Button) findViewById(R.id.Create_btn);
         login = (Button) findViewById(R.id.login_button);
         guest = (Button) findViewById(R.id.guest_btn);
-        create_account.setOnClickListener(new View.OnClickListener() {
+        createAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 opencreate_account();

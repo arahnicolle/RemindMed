@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/createAccount_btn"
+        android:id="@+id/Create_btn"
         android:layout_width="286dp"
         android:layout_height="61dp"
         android:layout_marginBottom="32dp"
