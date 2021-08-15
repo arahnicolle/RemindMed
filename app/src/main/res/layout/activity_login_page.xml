@@ -13,14 +13,14 @@
         android:id="@+id/logo1"
         android:layout_width="590dp"
         android:layout_height="489dp"
-        app:layout_constraintBottom_toTopOf="@+id/passwordTxtbox1"
+        app:layout_constraintBottom_toTopOf="@+id/passwordinput"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/email_txtbox1"
+        android:id="@+id/emailinput"
         android:layout_width="287dp"
         android:layout_height="52dp"
         android:layout_marginBottom="21dp"
@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/passwordTxtbox1"
+        android:id="@+id/passwordinput"
         android:layout_width="287dp"
         android:layout_height="52dp"
         android:layout_marginBottom="32dp"
@@ -59,7 +59,7 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/email_txtbox1"
+        app:layout_constraintBottom_toBottomOf="@+id/emailinput"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -85,6 +85,7 @@
         android:fontFamily="@font/viga"
         android:text="Login"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/forgotPass1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -108,12 +109,12 @@
         android:id="@+id/back1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="216dp"
         android:text="Back"
         android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/logo1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailTxtbox1"
         app:layout_constraintStart_toStartOf="parent" />
 
 

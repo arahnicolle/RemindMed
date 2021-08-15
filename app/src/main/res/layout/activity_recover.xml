@@ -10,9 +10,10 @@
         android:id="@+id/logo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/confirmPass_txtbox"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/remindmed_logo"
-        tools:layout_editor_absoluteY="-159dp" />
+        app:srcCompat="@drawable/remindmed_logo" />
 
     <ImageView
         android:id="@+id/redBackground"
@@ -29,13 +30,13 @@
         android:id="@+id/resetPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="312dp"
         android:text="Reset Password"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
-        app:layout_constraintBottom_toBottomOf="@+id/redBackground"
-        app:layout_constraintEnd_toEndOf="@+id/redBackground" />
+        app:layout_constraintBottom_toTopOf="@+id/newPassword_txtbox"
+        app:layout_constraintStart_toStartOf="@+id/redBackground" />
 
     <TextView
         android:id="@+id/newPass"
@@ -94,7 +95,10 @@
         android:layout_marginEnd="92dp"
         android:layout_marginBottom="84dp"
         android:background="@drawable/edit_round"
+        android:fontFamily="@font/viga"
         android:text="Submit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

@@ -10,18 +10,22 @@
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/drawable/edittext.xml" value="0.15925925925925927" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/drawable/edittext2.xml" value="0.15925925925925927" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/drawable/edittext3.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/drawable/ic_time.xml" value="0.21574074074074073" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/drawable/spinner_background.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/font/viga.xml" value="0.13518518518518519" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_create_account.xml" value="0.2" />
-        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_forgot_password.xml" value="0.14" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_health_measurements.xml" value="0.2" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_instruction_slideone.xml" value="0.2" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_instruction_slidethree.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_instruction_slidetwo.xml" value="0.16145833333333334" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_landing_page.xml" value="0.14" />
-        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_login_page.xml" value="0.18" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_login_page.xml" value="0.22" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_main.xml" value="0.221025641025641" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_main_page.xml" value="0.16" />
-        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_recover.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_medications.xml" value="0.18" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_recover.xml" value="0.22" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_recover_password.xml" value="0.2" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_reset_password.xml" value="0.17037037037037037" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
