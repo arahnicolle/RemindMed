@@ -14,6 +14,8 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/edit_round"
         android:text="Submit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -32,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="688dp"
+        android:layout_marginBottom="704dp"
         android:text="Back"
         android:textColor="#000000"
         android:textSize="18sp"

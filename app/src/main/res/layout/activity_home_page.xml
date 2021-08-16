@@ -22,7 +22,7 @@
         android:layout_width="238dp"
         android:layout_height="243dp"
         android:layout_marginStart="240dp"
-        android:layout_marginBottom="556dp"
+        android:layout_marginBottom="564dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/pills" />
@@ -32,10 +32,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="664dp"
+        android:layout_marginBottom="672dp"
+        android:fontFamily="@font/montserrat"
         android:text="Welcome, name"
         android:textColor="#FFFFFF"
-        android:textSize="28sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -46,7 +47,9 @@
         android:layout_marginStart="48dp"
         android:layout_marginBottom="428dp"
         android:background="@drawable/edit_round2"
+        android:fontFamily="@font/open_sans_bold"
         android:text="Add Medications"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -58,8 +61,10 @@
         android:layout_marginStart="48dp"
         android:layout_marginBottom="200dp"
         android:background="@drawable/edit_round2"
+        android:fontFamily="@font/open_sans_bold"
         android:text="Add Measurements"
-        android:textSize="28sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -172,4 +177,5 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

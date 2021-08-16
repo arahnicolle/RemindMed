@@ -9,18 +9,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.google.android.material.datepicker.MaterialDatePicker;
-import com.google.android.material.datepicker.MaterialPickerOnPositiveButtonClickListener;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Locale;
-import java.util.SimpleTimeZone;
-import java.util.TimeZone;
 
 public class new_medications extends AppCompatActivity {
 
@@ -34,7 +25,7 @@ public class new_medications extends AppCompatActivity {
         setContentView(R.layout.activity_new_medications);
 
         Spinner mySpinner = (Spinner) findViewById(R.id.type_spinner);
-        Spinner mySpinnertwo = (Spinner) findViewById(R.id.frequency_spinner2);
+        Spinner mySpinnertwo = (Spinner) findViewById(R.id.frequency_spinner3);
 
         ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(new_medications.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.type));
@@ -46,7 +37,7 @@ public class new_medications extends AppCompatActivity {
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinnertwo.setAdapter(myAdapter2);
 
-        timeButton = findViewById(R.id.timeButton);
+        timeButton = findViewById(R.id.timeBtn);
     }
 
     public void popTimePicker(View view) {
