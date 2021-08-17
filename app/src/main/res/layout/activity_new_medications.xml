@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/background" />
 
     <TextView
-        android:id="@+id/newMeasurements"
+        android:id="@+id/newMedications"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="668dp"
@@ -32,11 +32,11 @@
 
 
     <TextView
-        android:id="@+id/bloodPressure_txt"
+        android:id="@+id/medicineName_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="592dp"
+        android:layout_marginBottom="612dp"
         android:text="Medicine Name"
         android:textColor="#000000"
         android:textSize="22sp"
@@ -44,14 +44,16 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/bloodPressure_Box"
+        android:id="@+id/medicine_Box"
         android:layout_width="295dp"
         android:layout_height="57dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="524dp"
+        android:layout_marginBottom="552dp"
         android:background="@drawable/edittext3"
         android:ems="10"
+        android:hint="Medicine Name"
         android:inputType="textPersonName"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -60,34 +62,36 @@
         android:layout_width="46dp"
         android:layout_height="49dp"
         android:layout_marginStart="328dp"
-        android:layout_marginBottom="524dp"
+        android:layout_marginBottom="560dp"
         android:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/scan" />
+
 
     <TextView
         android:id="@+id/dosage_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="484dp"
+        android:layout_marginBottom="520dp"
         android:text="Dosage"
         android:textColor="#000000"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-
     <EditText
         android:id="@+id/DosageBox"
         android:layout_width="149dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="424dp"
+        android:layout_marginBottom="468dp"
         android:background="@drawable/edittext3"
         android:ems="10"
+        android:hint="Dosage"
         android:inputType="textPersonName"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -95,21 +99,20 @@
         android:id="@+id/type_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
-        android:layout_marginBottom="484dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginBottom="520dp"
         android:text="Type/Unit"
         android:textColor="#000000"
         android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/dosage_txt" />
 
     <Spinner
         android:id="@+id/type_spinner"
         android:layout_width="178dp"
         android:layout_height="48dp"
         android:layout_marginEnd="60dp"
-        android:layout_marginBottom="424dp"
-        android:background="@drawable/edittext3"
+        android:layout_marginBottom="468dp"
         android:backgroundTint="#FDCB00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -119,7 +122,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="384dp"
+        android:layout_marginBottom="436dp"
         android:text="Time"
         android:textColor="#000000"
         android:textSize="22sp"
@@ -131,12 +134,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="324dp"
+        android:layout_marginBottom="384dp"
         android:width="125dp"
         android:height="50dp"
+        android:background="@drawable/edittext3"
         android:onClick="popTimePicker"
         android:text="Set Time"
-        android:background="@drawable/edittext3"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -145,8 +148,8 @@
         android:id="@+id/add_btn"
         android:layout_width="51dp"
         android:layout_height="47dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginBottom="324dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="388dp"
         android:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -157,7 +160,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="284dp"
+        android:layout_marginBottom="348dp"
         android:text="Frequency"
         android:textColor="#000000"
         android:textSize="22sp"
@@ -169,8 +172,8 @@
         android:layout_width="143dp"
         android:layout_height="54dp"
         android:layout_marginEnd="252dp"
-        android:layout_marginBottom="220dp"
-        android:background="@drawable/edittext3"
+        android:layout_marginBottom="292dp"
+        android:backgroundTint="#FDCB00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -178,8 +181,8 @@
         android:id="@+id/inventory_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="81dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="4dp"
         android:text="Inventory"
         android:textColor="#000000"
         android:textSize="22sp"
@@ -190,11 +193,13 @@
         android:id="@+id/inventoryBox"
         android:layout_width="118dp"
         android:layout_height="55dp"
-        android:layout_marginStart="196dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginBottom="292dp"
         android:background="@drawable/edittext3"
         android:ems="10"
+        android:hint="Inventory"
         android:inputType="textPersonName"
+        android:paddingStart="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -203,7 +208,7 @@
         android:layout_width="46dp"
         android:layout_height="49dp"
         android:layout_marginStart="328dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="296dp"
         android:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -214,7 +219,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="180dp"
+        android:layout_marginBottom="260dp"
         android:text="Duration"
         android:textColor="#000000"
         android:textSize="22sp"
@@ -226,12 +231,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="208dp"
         android:width="125dp"
         android:height="50dp"
-        android:text="Start"
-        android:drawableStart="@drawable/ic_calendar"
         android:background="@drawable/edittext3"
+        android:drawableStart="@drawable/ic_calendar"
+        android:paddingLeft="10dp"
+        android:text="Start"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -248,6 +254,7 @@
         android:background="@drawable/edittext3"
         android:text="End"
         android:drawableStart="@drawable/ic_calendar"
+        android:paddingLeft="10dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/add_reminder_btn"
@@ -257,7 +264,7 @@
         android:id="@+id/add_reminder_btn"
         android:layout_width="247dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="120dp"
         android:background="@drawable/edit_round"
         android:fontFamily="@font/viga"
         android:text="Add Reminder"
@@ -268,5 +275,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageBack"
+        android:layout_width="64dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="360dp"
+        android:layout_marginBottom="688dp"
+        android:backgroundTint="#E73927"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/back" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
