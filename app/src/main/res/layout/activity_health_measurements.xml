@@ -311,13 +311,13 @@
         app:srcCompat="@drawable/arrow_next" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageBack2"
         android:layout_width="64dp"
         android:layout_height="68dp"
-        android:layout_marginEnd="356dp"
+        android:layout_marginEnd="360dp"
+        android:layout_marginBottom="696dp"
         android:backgroundTint="#E73927"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/back"
-        tools:layout_editor_absoluteY="-34dp" />
-
+        app:srcCompat="@drawable/backarrow" />
 </androidx.constraintlayout.widget.ConstraintLayout>
