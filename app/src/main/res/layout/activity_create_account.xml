@@ -31,7 +31,7 @@
         app:srcCompat="@drawable/doctor" />
 
     <TextView
-        android:id="@+id/back"
+        android:id="@+id/backTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -61,7 +61,7 @@
         android:id="@+id/first_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="124dp"
         android:layout_marginEnd="300dp"
         android:fontFamily="@font/source_sans_pro"
         android:text="First Name"
@@ -89,14 +89,14 @@
         android:id="@+id/last_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="7dp"
+        android:layout_marginBottom="8dp"
         android:fontFamily="@font/source_sans_pro"
         android:text="Last Name"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/last_nameBox"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText

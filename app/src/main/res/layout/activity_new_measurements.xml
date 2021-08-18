@@ -19,7 +19,6 @@
         app:srcCompat="@drawable/background" />
 
     <TextView
-        android:id="@+id/editMeasurements"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="668dp"
@@ -32,7 +31,7 @@
 
 
     <TextView
-        android:id="@+id/bloodPressure_txt"
+        android:id="@+id/medicineView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
