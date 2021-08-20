@@ -248,7 +248,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="24dp"
         android:width="125dp"
         android:height="50dp"
         android:background="@drawable/edittext3"

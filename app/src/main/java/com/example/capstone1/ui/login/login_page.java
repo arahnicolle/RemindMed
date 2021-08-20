@@ -43,7 +43,7 @@ public class login_page extends AppCompatActivity {
                 .get(LoginViewModel.class);
 
         final EditText usernameEditText = binding.emailinput;
-        final EditText passwordEditText = binding.passwordinput;
+        final EditText passwordEditText = binding.passwordInput;
         final Button loginButton = binding.loginBtn;
         //final ProgressBar loadingProgressBar = binding.loading;
 
