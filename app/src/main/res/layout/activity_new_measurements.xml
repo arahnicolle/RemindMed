@@ -31,7 +31,7 @@
 
 
     <TextView
-        android:id="@+id/medicineView"
+        android:id="@+id/bloodPressureView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -69,7 +69,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/timeBtn"
+        android:id="@+id/timeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -119,7 +119,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/start_btn3"
+        android:id="@+id/startButton_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -136,7 +136,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/end_btn3"
+        android:id="@+id/endButton_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -149,11 +149,11 @@
         android:paddingLeft="10dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/add_reminder_btn"
-        app:layout_constraintStart_toEndOf="@+id/start_btn3" />
+        app:layout_constraintBottom_toTopOf="@+id/save_changes_button"
+        app:layout_constraintStart_toEndOf="@+id/startButton_one" />
 
     <Button
-        android:id="@+id/add_reminder_btn"
+        android:id="@+id/save_changes_button"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:layout_marginBottom="108dp"
@@ -169,7 +169,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/cancel_btn"
+        android:id="@+id/cancel"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:layout_marginBottom="36dp"

@@ -33,7 +33,7 @@
 
 
     <TextView
-        android:id="@+id/medicineView"
+        android:id="@+id/bloodPressureView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -60,7 +60,6 @@
 
 
     <TextView
-        android:id="@+id/time_txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -73,7 +72,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/timeBtn"
+        android:id="@+id/timeButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -125,7 +124,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/start_btn3"
+        android:id="@+id/startButton_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -142,7 +141,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/end_btn3"
+        android:id="@+id/endButton_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
@@ -155,36 +154,20 @@
         android:paddingLeft="10dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/add_reminder_btn"
-        app:layout_constraintStart_toEndOf="@+id/start_btn3" />
+        app:layout_constraintBottom_toTopOf="@+id/save_changes_button"
+        app:layout_constraintStart_toEndOf="@+id/startButton_one" />
 
     <Button
-        android:id="@+id/add_reminder_btn"
+        android:id="@+id/save_changes_button"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:layout_marginBottom="132dp"
         android:background="@drawable/edit_round"
-        android:fontFamily="@font/source_sans_pro"
+        android:fontFamily="@font/viga"
         android:text="Save Changes"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/cancel_btn"
-        android:layout_width="247dp"
-        android:layout_height="49dp"
-        android:layout_marginBottom="52dp"
-        android:background="@drawable/editttextcancel"
-        android:fontFamily="@font/source_sans_pro"
-        android:text="Delete"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#000000"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -200,5 +183,18 @@
         app:layout_constraintBottom_toTopOf="@+id/bloodPressure_Box"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/backarrow" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="249dp"
+        android:layout_height="50dp"
+        android:background="@drawable/editttextcancel"
+        android:fontFamily="@font/viga"
+        android:text="Delete"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="629dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

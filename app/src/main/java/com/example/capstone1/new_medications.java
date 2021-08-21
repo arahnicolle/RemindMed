@@ -37,7 +37,7 @@ public class new_medications extends AppCompatActivity {
         myAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinnertwo.setAdapter(myAdapter2);
 
-        timeButton = findViewById(R.id.timeBtn);
+        timeButton = findViewById(R.id.timeButton);
     }
 
     public void popTimePicker(View view) {

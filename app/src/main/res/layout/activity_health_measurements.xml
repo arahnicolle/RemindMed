@@ -234,7 +234,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/bloodPressure_button"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_marginStart="352dp"
@@ -245,7 +245,7 @@
         app:srcCompat="@drawable/arrow_next" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/cholesterol_button"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_marginStart="352dp"
@@ -256,7 +256,7 @@
         app:srcCompat="@drawable/arrow_next" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/bloodSugar_button"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_marginStart="352dp"
@@ -267,7 +267,7 @@
         app:srcCompat="@drawable/arrow_next" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/temperature_button"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_marginStart="352dp"
@@ -278,7 +278,7 @@
         app:srcCompat="@drawable/arrow_next" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/heartRate_button"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_marginStart="352dp"
@@ -289,7 +289,7 @@
         app:srcCompat="@drawable/arrow_next" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/pulseRate_button"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_marginStart="352dp"
@@ -300,7 +300,7 @@
         app:srcCompat="@drawable/arrow_next" />
 
     <ImageButton
-        android:id="@+id/imageButton14"
+        android:id="@+id/sleep_button"
         android:layout_width="42dp"
         android:layout_height="40dp"
         android:layout_marginStart="352dp"

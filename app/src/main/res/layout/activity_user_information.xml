@@ -31,6 +31,49 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="392dp"
+        android:background="@drawable/edittext3"
+        android:ems="10"
+        android:hint="Year of Birth
+"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="328dp"
+        android:background="@drawable/edittext3"
+        android:ems="10"
+        android:hint="Height"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginBottom="260dp"
+        android:background="@drawable/edittext3"
+        android:ems="10"
+        android:hint="Weight"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageButton
         android:id="@+id/imageBack5"
         android:layout_width="64dp"
@@ -122,17 +165,17 @@
         android:id="@+id/weightView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="48dp"
+        android:layout_marginBottom="36dp"
         android:text="Weight"
         android:textColor="#000000"
         android:textSize="22sp"
-        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintBottom_toTopOf="@+id/logout_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/logoutBtn"
+        android:id="@+id/logout_btn"
         android:layout_width="247dp"
         android:layout_height="49dp"
         android:layout_marginBottom="184dp"
@@ -147,5 +190,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Spinner
+        android:id="@+id/gender_spinner"
+        android:layout_width="112dp"
+        android:layout_height="44dp"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="242dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
