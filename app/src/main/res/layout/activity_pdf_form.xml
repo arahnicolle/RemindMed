@@ -53,11 +53,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <View
-        android:layout_width="364dp"
-        android:layout_height="1dp"
-        android:background="@color/black"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="128dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
