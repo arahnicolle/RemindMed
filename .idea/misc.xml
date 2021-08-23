@@ -19,13 +19,17 @@
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/drawable/spinner_background.xml" value="0.21574074074074073" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/drawable/spinner_border.xml" value="0.1" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/font/viga.xml" value="0.13518518518518519" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_alarm_notification.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_change_name.xml" value="0.22" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_create_account.xml" value="0.18" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_edit_delete_measurements.xml" value="0.2" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_edit_delete_medications.xml" value="0.22" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
-        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_health_measurements.xml" value="0.22" />
-        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_health_measurements.xml" value="0.1" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_history_for_measurements.xml" value="0.33" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_history_for_medications.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_history_page.xml" value="0.33" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_home_page.xml" value="0.24444444444444444" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_instruction_slideone.xml" value="0.2" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_instruction_slidethree.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_instruction_slidetwo.xml" value="0.16145833333333334" />
@@ -38,10 +42,11 @@
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_measurements_bloodsugar.xml" value="0.2" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_measurements_cholesterol.xml" value="0.2" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_measurements_heartrate.xml" value="0.1" />
-        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_measurements_hours_of_sleep.xml" value="0.16" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_measurements_hours_of_sleep.xml" value="0.22" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_measurements_pulserate.xml" value="0.25" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_measurements_temperature.xml" value="0.1" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_new_medications.xml" value="0.25" />
+        <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_pdf_form.xml" value="0.33" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_recommendations.xml" value="0.18" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_recover.xml" value="0.22" />
         <entry key="..\:/Users/Arah/Desktop/Capstone1/app/src/main/res/layout/activity_recover_password.xml" value="0.2" />
