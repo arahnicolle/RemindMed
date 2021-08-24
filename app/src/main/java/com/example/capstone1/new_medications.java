@@ -24,8 +24,8 @@ public class new_medications extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_medications);
 
-        Spinner mySpinner = (Spinner) findViewById(R.id.type_spinner);
-        Spinner mySpinnertwo = (Spinner) findViewById(R.id.frequency_spinner3);
+        Spinner mySpinner = (Spinner) findViewById(R.id.type_spinner_one);
+        Spinner mySpinnertwo = (Spinner) findViewById(R.id.frequency_spinner_ten);
 
         ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(new_medications.this,
                 android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.type));

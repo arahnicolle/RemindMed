@@ -91,24 +91,47 @@
         android:id="@+id/confirm_btn"
         android:layout_width="128dp"
         android:layout_height="106dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginBottom="44dp"
         android:background="@drawable/edit_skip"
         android:fontFamily="@font/viga"
         android:text="Confirm"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="581dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/skip_btn" />
 
     <Button
         android:id="@+id/skip_btn"
         android:layout_width="128dp"
         android:layout_height="106dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="44dp"
         android:background="@drawable/edit_skip"
         android:fontFamily="@font/viga"
         android:text="Skip"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="581dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="115dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="388dp"
+        app:cardBackgroundColor="#FDCB00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="528dp"
+        app:cardBackgroundColor="#FDCB00"
+        app:cardCornerRadius="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
